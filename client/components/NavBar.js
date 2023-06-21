@@ -18,6 +18,7 @@ const NavBar = () => {
       </div>
       <div className={styles.buttons}>
         <Button className={styles.button}>Home</Button>
+        <Button className={styles.button}>Get Started</Button>
         <Button className={styles.button}>Features</Button>
         <Button className={styles.button}>Team</Button>
         {/* Button for GitHub */}
