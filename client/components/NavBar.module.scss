@@ -1,0 +1,53 @@
+//  Entire NavBar
+.nav {
+  width: 100vw;
+  height: 9vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+}
+//  Logo Div
+.logo {
+  width: 15rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // background-color: blue;
+}
+//  Logo
+.img {
+  height: 3rem;
+}
+//  Title
+.title {
+  font-size: 2rem;
+  color: white;
+}
+//  Buttons Div
+.buttons {
+  width: 30rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  // background-color: yellow;
+}
+//  Button
+.button {
+  font-size: 1.5rem;
+
+  color: white;
+  background-color: transparent;
+
+  border: 1px solid transparent;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
