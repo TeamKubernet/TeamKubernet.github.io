@@ -1,0 +1,16 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.h2 {
+  margin: 3rem auto;
+  font-size: 3.25rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

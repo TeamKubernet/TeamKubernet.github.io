@@ -1,0 +1,28 @@
+.member {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pic {
+  height: 24rem;
+  width: 18rem;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.socials {
+  width: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
