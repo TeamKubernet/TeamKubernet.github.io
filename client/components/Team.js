@@ -14,12 +14,30 @@ const Team = () => {
     <div className={styles.div}>
       <h2 className={styles.h2}>Meet the Team</h2>
       <div className={styles.container}>
-
-        <Member src={jimmy} name='Jimmy Tran' />
-        <Member src={praise} name='Praise Emmanuel' />
-        <Member src={paul} name='Paul Lee' />
-        <Member src={joseph} name='Joseph Caballero' />
-
+        <Member
+          src={jimmy}
+          name='Jimmy Tran'
+          l='https://www.linkedin.com/in/jimmytran48/'
+          g='https://github.com/JimmyTran48'
+        />
+        <Member
+          src={praise}
+          name='Praise Emmanuel'
+          l='https://www.linkedin.com/in/praiseemmanuel/'
+          g='https://github.com/praisepelumi'
+        />
+        <Member
+          src={paul}
+          name='Paul Lee'
+          l='https://www.linkedin.com/in/paaoul/'
+          g='https://github.com/paaoul'
+        />
+        <Member
+          src={joseph}
+          name='Joseph Caballero'
+          l='https://www.linkedin.com/in/joseph-w-caballero/'
+          g='https://github.com/Joseph-Caballero'
+        />
       </div>
     </div>
   );
