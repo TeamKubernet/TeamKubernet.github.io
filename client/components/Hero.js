@@ -12,7 +12,9 @@ const Hero = () => {
       <img src={Gif} className={styles.img} />
       <h1 className={styles.h1}>Kubernét</h1>
       <p className={styles.p}>short sentence on what it does</p>
-      <Button className={styles.button}>Get Started</Button>
+      <a href='https://github.com/oslabs-beta/Kubernet'>
+        <Button className={styles.button}>Get Started</Button>
+      </a>
     </div>
   );
 };

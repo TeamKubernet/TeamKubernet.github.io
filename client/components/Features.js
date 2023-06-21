@@ -9,7 +9,7 @@ import dashboard from '../assets/dashboard.gif';
 
 const Features = () => {
   return (
-    <div className={styles.div}>
+    <div className={styles.div} id='features'>
       <h2 className={styles.h2}>Features:</h2>
 
       <div className={styles.container}>

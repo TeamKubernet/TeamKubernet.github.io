@@ -11,7 +11,7 @@ import Member from './Member';
 
 const Team = () => {
   return (
-    <div className={styles.div}>
+    <div className={styles.div} id='team'>
       <h2 className={styles.h2}>Meet the Team</h2>
       <div className={styles.container}>
         <Member

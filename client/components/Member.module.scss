@@ -25,4 +25,11 @@
 .socials img {
   height: 2.5rem;
   width: 2.5rem;
+
+  &:hover {
+    cursor: pointer;
+
+    transform: scale(1.15);
+    transition-duration: 300ms;
+  }
 }
