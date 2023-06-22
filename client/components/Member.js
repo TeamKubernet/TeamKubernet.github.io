@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './Member.module.scss';
 
 import LinkedIn from '../assets/in.png';
-import GitHub from '../assets/github.png';
+import GitHub from '../assets/github-mark.png';
 
 const Member = (props) => {
   return (

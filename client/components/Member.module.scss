@@ -6,6 +6,7 @@
   justify-content: space-around;
 
   z-index: 1;
+  margin: 2rem;
 }
 
 .pic {
@@ -27,7 +28,7 @@
 .socials img {
   height: 2.5rem;
   width: 2.5rem;
-
+  background-color: transparent;
   &:hover {
     cursor: pointer;
 

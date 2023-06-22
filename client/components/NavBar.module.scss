@@ -43,7 +43,9 @@
   justify-content: space-around;
   align-items: center;
 
-  // background-color: yellow;
+  @media (max-width: 700px) {
+    display: none;
+  }
 }
 //  Button
 .button {
