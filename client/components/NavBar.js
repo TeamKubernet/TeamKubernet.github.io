@@ -17,7 +17,9 @@ const NavBar = () => {
         <p className={styles.title}>Kubernét</p>
       </div>
       <div className={styles.buttons}>
-        <Button className={styles.button}>Home</Button>
+        <a href='#root'>
+          <Button className={styles.button}>Home</Button>
+        </a>
         <a href='https://github.com/oslabs-beta/Kubernet'>
           <Button className={styles.button}>Get Started</Button>
         </a>

@@ -8,7 +8,9 @@
   align-items: center;
 
   position: fixed;
-  background-color: red;
+  background-color: #22577a;
+
+  z-index: 10;
 }
 //  Logo Div
 .logo {
@@ -26,12 +28,16 @@
 }
 //  Title
 .title {
+  font-family: monospace;
   font-size: 2rem;
-  color: white;
+
+  color: #f8f7f2;
 }
 //  Buttons Div
 .buttons {
   width: 30rem;
+
+  font-family: sans-serif;
 
   display: flex;
   justify-content: space-around;
@@ -43,7 +49,7 @@
 .button {
   font-size: 1.5rem;
 
-  color: white;
+  color: #f8f7f2;
   background-color: transparent;
 
   border: 1px solid transparent;
